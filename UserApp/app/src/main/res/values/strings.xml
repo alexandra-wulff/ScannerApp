@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Green Coffee</string>
+
+    <string name="back">back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">sign-in</string>
+    <string name="register">Register</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="rename_tag">Rename Tag</string>
+    <string name="back_btn">Back</string>
+    <string name="enter_tag_name">Give your tag a name</string>
+    <string name="add">Add</string>
+    <string name="hold_close_to_tag">Hold close to nfcTag</string>
+    <string name="new_tag">NEW TAG</string>
+    <string name="login_register">LOGIN / REGISTER</string>
+    <string name="logout">LOGOUT</string>
+    <string name="scan_tag">SCAN NEW TAG</string>
+
+    //User profile
+    <string name="user_profile">PROFILE</string>
+    <string name="rank">Rank</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="month">Month</string>
+    <string name="semester">Semester</string>
+    <string name="all_time">All time</string>
+    <string name="level">Level</string>
+    <string name="user">User</string>
+    <string name="point_score">Point score</string>
+    <string name="view_history">View History</string>
+    <string name="imageLevel">imageLevel</string>
+    <string name="user_history">HISTORY</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_user_name">Enter user name</string>
+</resources>

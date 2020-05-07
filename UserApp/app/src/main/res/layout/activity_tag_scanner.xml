@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TagScannerActivity">
+
+
+    <TextView
+        android:id="@+id/scanHeadline_TxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Scan Tag"
+        android:textSize="30sp"
+        cardView:layout_constraintEnd_toEndOf="parent"
+        cardView:layout_constraintHorizontal_bias="0.5"
+        cardView:layout_constraintStart_toStartOf="parent"
+        cardView:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/scanCircleImage_imgView"
+        android:layout_width="246dp"
+        android:layout_height="293dp"
+        android:layout_marginTop="64dp"
+        android:background="#006B2020"
+        cardView:layout_constraintBottom_toTopOf="@+id/back_btn"
+        cardView:layout_constraintEnd_toEndOf="parent"
+        cardView:layout_constraintHorizontal_bias="0.5"
+        cardView:layout_constraintStart_toStartOf="parent"
+        cardView:layout_constraintTop_toBottomOf="@+id/scanHeadline_TxtView"
+        cardView:srcCompat="@drawable/scan_circle" />
+
+    <ProgressBar
+        android:id="@+id/scan_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        cardView:layout_constraintBottom_toTopOf="@+id/scanCircleImage_imgView"
+        cardView:layout_constraintEnd_toStartOf="@+id/scanCircleImage_imgView"
+        cardView:layout_constraintHorizontal_bias="0.5"
+        cardView:layout_constraintStart_toEndOf="@+id/scanCircleImage_imgView"
+        cardView:layout_constraintTop_toBottomOf="@+id/scanCircleImage_imgView" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Go Back"
+        cardView:layout_constraintEnd_toEndOf="parent"
+        cardView:layout_constraintHorizontal_bias="0.5"
+        cardView:layout_constraintStart_toStartOf="parent"
+        cardView:layout_constraintTop_toBottomOf="@+id/scanCircleImage_imgView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

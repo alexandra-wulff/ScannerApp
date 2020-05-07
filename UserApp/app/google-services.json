@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "539231214859",
+    "firebase_url": "https://fir-testapp-c8863.firebaseio.com",
+    "project_id": "fir-testapp-c8863",
+    "storage_bucket": "fir-testapp-c8863.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539231214859:android:ac05c3da46f75be848560e",
+        "android_client_info": {
+          "package_name": "com.example.tagcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539231214859-23ku7ih2iacrs3phs0vu00auos9lene7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyTpzdt95roK_sGE7ZbA4MOCd8JACe_Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539231214859-23ku7ih2iacrs3phs0vu00auos9lene7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
